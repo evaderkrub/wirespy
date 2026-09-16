@@ -1,0 +1,30 @@
+# Build output
+build/
+out/
+cmake-build-*/
+
+# vcpkg
+vcpkg_installed/
+
+# MSVC
+*.vcxproj.user
+*.suo
+.vs/
+
+# Editors
+.vscode/
+.idea/
+
+# MSYS2 server build + staging (scripts/build-server-msys2.sh)
+build-msys2/
+dist/
+
+# Local tooling and caches
+.claude/
+.codex/
+.pytest_cache/
+__pycache__/
+*.pyc
+AGENTS.md
+CLAUDE.md
+docs/superpowers/
